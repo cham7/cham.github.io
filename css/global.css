@@ -286,19 +286,23 @@ img {
     line-height: 25px;
     opacity: 0.8;
 	font-weight: 700;
-	line-height: 13px;
+	line-height: 11px;
     font-size: 15px;
     position: absolute;
-	top: 3px;
+	top: 8px;
 	left: 10px;
 }
 .bot-menu a:nth-child(2){
-	left: 42px;
-    top: 5px;
+	left: 70px;
+    top: 6px;
 }
 .bot-menu a:nth-child(3){
-	left: 70px;
-    top: 25%;
+	left: 93px;
+    top: 8px;
+}
+.bot-menu a:nth-child(3) span{
+	width: 11px;
+    height: 11px;
 }
 .bot-menu a span{
 	width: 12px;
@@ -475,7 +479,7 @@ code .class-name{
 .p-txt.active span{
 	opacity: 1;
 	/* width: 582px; */
-	width: 430px;
+	width: 415px;
 }
 .p-txt.active span span{
 	transition: all 1s ease;
